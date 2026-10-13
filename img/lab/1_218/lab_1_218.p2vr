@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>lab_1_218.jpg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+      <hotspotfilename>lab_1_218_hs.png</hotspotfilename>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>36.5</start>
+        <min>-180</min>
+        <max>180</max>
+      </pan>
+      <tilt>
+        <start>0</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>52.01</start>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <datetime>2013:10:23 19:20:31</datetime>
+      <title>Лабораторія систем автоматики на перегонах</title>
+      <description>АБ, ПАБ и АЛС</description>
+      <author>Ушаков М.В.</author>
+      <copyright>УкрДАЗТ, каф.АТ</copyright>
+    </userdata>
+    <hotspots>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>3.84605e+22</pan>
+          <tilt>3.17409e-37</tilt>
+          <fov>3.17407e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>1</id>
+        <title>Напівавтоматичне блокування системи ГТСС</title>
+        <url>mk1218_01_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07412e-37</tilt>
+          <fov>1.07411e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>2</id>
+        <title>АБТ - Автоблокування з тональними рейковими колами</title>
+        <url>mk1218_02_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07442e-37</tilt>
+          <fov>1.07441e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>3</id>
+        <title>Автоматична переїзна сигналізація</title>
+        <url>mk1218_03_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07472e-37</tilt>
+          <fov>1.07471e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>4</id>
+        <title>мікропроцесорне кодове автоблокування АБ-ЧКУ</title>
+        <url>mk1218_04_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.06613e-37</tilt>
+          <fov>1.06612e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>5</id>
+        <title>мікропроцесорна переїзна сигналізація з тональними рейковими колами</title>
+        <url>mk1218_05_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.06642e-37</tilt>
+          <fov>1.06641e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>6</id>
+        <title>кодове автоблокування</title>
+        <url>mk1218_06_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.06672e-37</tilt>
+          <fov>1.06671e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>7</id>
+        <title>схема зміни напрямку руху</title>
+        <url>mk1218_07_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.075e-37</tilt>
+          <fov>1.07499e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>8</id>
+        <title>кодування станційних маршрутів та система ЧДК</title>
+        <url>mk1218_08_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07531e-37</tilt>
+          <fov>1.0753e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>9</id>
+        <title>АЛСН підсилювач</title>
+        <url>mk1218_09_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07561e-37</tilt>
+          <fov>1.0756e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>10</id>
+        <title>АЛСН - Автоматична локомотивна сигналізація</title>
+        <url>mk1218_10_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07591e-37</tilt>
+          <fov>1.0759e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>11</id>
+        <title>електрожезлова система (музейний експонат)</title>
+        <url>mk1218_12_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.07621e-37</tilt>
+          <fov>1.0762e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>12</id>
+        <title>АЛС-ЕН - Автоматична локомотивна сигналізація єдиного ряду з безперервним каналом зв'язку</title>
+        <url>mk1218_11_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>6.31105e+23</pan>
+          <tilt>1.0765e-37</tilt>
+          <fov>1.07649e-37</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>13</id>
+        <title>мікропроцесорна переїзна сигналізація з тональними рейковими колами</title>
+        <url>mk1218_13_out.swf</url>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>area</type>
+        <id>14</id>
+        <title>Вихід до коридору</title>
+        <url>kk1et2_001_out.swf</url>
+      </hotspot>
+    </hotspots>
+    <output>
+      <flash>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/lab_1_218.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="externalinterface">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">true</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="videofile"/>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+          <onlyinfocus>0</onlyinfocus>
+          <nodedelay>0</nodedelay>
+        </autorotate>
+        <loading>
+          <text/>
+          <bar/>
+          <image/>
+        </loading>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>1</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <cursor>
+          <ownonmovement>1</ownonmovement>
+          <ownondefault>1</ownondefault>
+        </cursor>
+        <lock>
+          <domainenabled>0</domainenabled>
+          <domainmessage>wrong domain</domainmessage>
+          <dateenabled>0</dateenabled>
+          <date>2013-11-19</date>
+          <datemessage>expired</datemessage>
+        </lock>
+        <transition>
+          <enabled>0</enabled>
+          <transitiontype>crossdissolve</transitiontype>
+          <transitioncolor>#000000</transitioncolor>
+          <transitiontime>1</transitiontime>
+          <zoominenabled>1</zoominenabled>
+          <zoomoutenabled>1</zoomoutenabled>
+          <zoomoutwait>1</zoomoutwait>
+          <zoomfov>5</zoomfov>
+          <zoomspeed>2</zoomspeed>
+        </transition>
+        <filename>output/lab_1_218_out.swf</filename>
+        <quality>80</quality>
+        <nodistortion>0</nodistortion>
+        <externalimage>0</externalimage>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>640</windowwidth>
+        <windowheight>480</windowheight>
+        <scaling>stage</scaling>
+        <fovmode>vertical</fovmode>
+        <framerate>50</framerate>
+        <changestagequality>0</changestagequality>
+        <changesmoothing>0</changesmoothing>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>0</invertcontrol>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <trapwheel>1</trapwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <keyboardzoomlocked>0</keyboardzoomlocked>
+        <networkaccess>0</networkaccess>
+        <fullscreencontext>0</fullscreencontext>
+        <hideaboutbox>0</hideaboutbox>
+        <externalskin>0</externalskin>
+        <skinimagepath>images</skinimagepath>
+        <skinfile>controller_new_popup.ggsk</skinfile>
+        <leveltileenabled>0</leveltileenabled>
+        <leveltilesize>512</leveltilesize>
+        <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
+        <leveltilegeneratefiles>1</leveltilegeneratefiles>
+        <leveltileoverlap>1</leveltileoverlap>
+        <levelmemraw>300</levelmemraw>
+        <levelmembmp>200</levelmembmp>
+        <levelswitchbias>0.4</levelswitchbias>
+        <levelqueueraw>20</levelqueueraw>
+        <levelqueuebmp>5</levelqueuebmp>
+        <tilesize>2338</tilesize>
+        <previewresolution>4</previewresolution>
+        <preview>grayscale</preview>
+        <previewcolor>#808080</previewcolor>
+        <previewquality>25</previewquality>
+      </flash>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
