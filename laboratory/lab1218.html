@@ -66,28 +66,29 @@
                 const viewer = pannellum.viewer('panorama', {
                     type: 'equirectangular',
                     panorama: panoramaURL,
-
                     // Геометрія панорами
                     haov: 360,
-                    vaov: 56,
+                    vaov: 78,
                     vOffset: 0,
 
                     // Початковий вигляд
                     pitch: 0,
-                    yaw: 0,
+                    yaw: -37,
                     hfov: 100,
 
                     // Межі огляду
-                    minPitch: -28,
-                    maxPitch: 28,
+                    minPitch: -30,
+                    maxPitch: 30,
                     minHfov: 50,
-                    maxHfov: 120,
+                    maxHfov: 100,
 
                     // Керування та завантаження
                     autoLoad: true,
                     showControls: true,
                     showFullscreenCtrl: true,
                     compass: false
+
+
                 });
 
                 viewer.on('load', function () {
