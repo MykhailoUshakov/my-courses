@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Панорама лабораторії 3.301</title>
+
+    <!-- Pannellum CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"
+    >
+
+    <!-- Pannellum JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js">
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            color: #222;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin: 0 0 16px;
+        }
+
+        #panorama {
+            width: 100%;
+            height: 75vh;
+            min-height: 350px;
+            background: #222;
+        }
+
+        #status {
+            margin-top: 12px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Панорама лабораторії 3.301</h1>
+
+    <div id="panorama"></div>
+    <div id="status">Завантаження панорами...</div>
+
+    <script>
+        const panoramaURL = 'https://mykhailoushakov.github.io/my-courses/img/lab/3301/lab_3_301.jpg';
+        const panorprvURL = 'https://mykhailoushakov.github.io/my-courses/img/lab/3301/lab_3_301.preview.jpg';
+
+        const status = document.getElementById('status');
+
+        if (typeof pannellum === 'undefined') {
+            status.textContent =
+                'Помилка: бібліотека Pannellum не завантажилася. Перевірте доступ до CDN.';
+        } else {
+            try {
+                const viewer = pannellum.viewer('panorama', {
+                    type: 'equirectangular',
+                    panorama: panoramaURL,
+                    preview: panorprvURL,
+                    // Геометрія панорами
+                    haov: 360,
+                    vaov: 78,
+                    vOffset: 0,
+
+                    // Початковий вигляд
+                    pitch: 0,
+                    yaw: -37,
+                    hfov: 130,
+
+                    // Межі огляду
+                    minPitch: -39,
+                    maxPitch: 39,
+                    minHfov: 70,
+                    maxHfov: 130,
+
+                    // Керування та завантаження
+                    autoLoad: true,
+                    showControls: true,
+                    showFullscreenCtrl: true,
+                    compass: false
+
+
+                });
+
+                viewer.on('load', function () {
+                    status.textContent =
+                        'Панораму завантажено. Перетягуйте мишкою для огляду.';
+                });
+
+                viewer.on('error', function (error) {
+                    status.textContent =
+                        'Помилка завантаження панорами: ' + error;
+                });
+
+            } catch (error) {
+                status.textContent =
+                    'Помилка запуску переглядача: ' + error.message;
+                console.error(error);
+            }
+        }
+    </script>
+
+</body>
+</html>

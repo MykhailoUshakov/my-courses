@@ -53,8 +53,8 @@
     <div id="status">Завантаження панорами...</div>
 
     <script>
-        const panoramaURL =
-            'https://mykhailoushakov.github.io/my-courses/img/lab/1_218/lab_1_218.jpg';
+        const panoramaURL = 'https://mykhailoushakov.github.io/my-courses/img/lab/1218/lab_1_218.jpg';
+        const panorprvURL = 'https://mykhailoushakov.github.io/my-courses/img/lab/1218/lab_1_218.preview.jpg';
 
         const status = document.getElementById('status');
 
@@ -66,6 +66,7 @@
                 const viewer = pannellum.viewer('panorama', {
                     type: 'equirectangular',
                     panorama: panoramaURL,
+                    preview: panorprvURL,
                     // Геометрія панорами
                     haov: 360,
                     vaov: 78,
@@ -73,14 +74,14 @@
 
                     // Початковий вигляд
                     pitch: 0,
-                    yaw: -37,
-                    hfov: 120,
+                    yaw: -36,
+                    hfov: 130,
 
                     // Межі огляду
-                    minPitch: -30,
-                    maxPitch: 30,
+                    minPitch: -39,
+                    maxPitch: 39,
                     minHfov: 70,
-                    maxHfov: 120,
+                    maxHfov: 130,
 
                     // Керування та завантаження
                     autoLoad: true,
